@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang='en'><head><title>Services — CDR M&E</title><meta name='description' content='Electrical, mechanical, plumbing, FM and compliance services.'/>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0b66ff" />
+<link rel="icon" href="assets/img/favicon.svg">
+<link rel="apple-touch-icon" href="assets/img/favicon-apple.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CDR M&E Services Ltd">
+<meta property="og:image" content="https://cdrme.co.uk/assets/img/og-image.png">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  .btn-primary{background:#0b66ff;color:#fff;border-radius:0.75rem;padding:0.75rem 1.25rem;font-weight:600;}
+  .btn-primary:hover{filter:brightness(0.95);}
+  .chip{display:inline-block;padding:.35rem .6rem;border:1px solid #e5e7eb;border-radius:.75rem;font-size:.75rem}
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded',()=>{
+    const b=document.getElementById('menuBtn');const m=document.getElementById('mobileMenu');
+    if(b) b.onclick=()=>m.classList.toggle('hidden');
+  })
+</script>
+</head><body class='antialiased text-gray-900'>
+<header class="bg-white/90 backdrop-blur border-b sticky top-0 z-40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex h-16 items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2">
+        <img src="assets/img/logo.svg" alt="CDR M&E" class="h-7 w-auto">
+        <span class="sr-only">CDR M&amp;E</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="services.html" class="hover:text-blue-600">Services</a>
+        <a href="sectors.html" class="hover:text-blue-600">Sectors</a>
+        <a href="projects.html" class="hover:text-blue-600">Projects</a>
+        <a href="about.html" class="hover:text-blue-600">About</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </nav>
+      <a href="contact.html" class="hidden md:inline-flex btn-primary">Request a quote</a>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-md border" aria-label="Open Menu">☰</button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="md:hidden hidden border-t">
+    <div class="px-4 py-3 space-y-2">
+      <a href="services.html" class="block">Services</a>
+      <a href="sectors.html" class="block">Sectors</a>
+      <a href="projects.html" class="block">Projects</a>
+      <a href="about.html" class="block">About</a>
+      <a href="contact.html" class="block">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+  <h1 class="text-4xl font-bold">Services</h1>
+  <p class="mt-4 text-gray-700">End‑to‑end building services for commercial estates, schools and residential blocks.</p>
+  <div class="mt-10 grid md:grid-cols-2 gap-8" id="electrical">
+    <section class="p-6 border rounded-2xl">
+      <h2 class="text-2xl font-semibold">Electrical</h2>
+      <ul class="mt-3 list-disc ml-5 text-gray-700 space-y-1">
+        <li>EICR, testing & inspection</li>
+        <li>Distribution boards & containment</li>
+        <li>Lighting & emergency lighting</li>
+        <li>EV chargers & small works</li>
+      </ul>
+    </section>
+    <section class="p-6 border rounded-2xl" id="mechanical">
+      <h2 class="text-2xl font-semibold">Mechanical & Plumbing</h2>
+      <ul class="mt-3 list-disc ml-5 text-gray-700 space-y-1">
+        <li>Boilers, plant & controls</li>
+        <li>Hot water & pumps</li>
+        <li>Pipework repairs & leak response</li>
+        <li>Legionella remedials</li>
+      </ul>
+    </section>
+    <section class="p-6 border rounded-2xl" id="fm">
+      <h2 class="text-2xl font-semibold">Facilities Maintenance</h2>
+      <ul class="mt-3 list-disc ml-5 text-gray-700 space-y-1">
+        <li>PPM planning & asset registers</li>
+        <li>Reactive 24/7 helpdesk</li>
+        <li>Compliance reporting & portals</li>
+        <li>Minor civils and fabric works</li>
+      </ul>
+    </section>
+    <section class="p-6 border rounded-2xl" id="compliance">
+      <h2 class="text-2xl font-semibold">Compliance</h2>
+      <ul class="mt-3 list-disc ml-5 text-gray-700 space-y-1">
+        <li>NICEIC-ready documentation</li>
+        <li>RAMS, permits & supervision records</li>
+        <li>EICR & remedial close‑out</li>
+        <li>Energy & carbon improvements</li>
+      </ul>
+    </section>
+  </div>
+  <a href="contact.html" class="inline-block mt-10 btn-primary">Request a quote</a>
+</main>
+
+<footer class="bg-gray-50 mt-16 border-t">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-4 gap-8 text-sm">
+    <div>
+      <img src="assets/img/logo.svg" alt="CDR M&E" class="h-8 w-auto">
+      <p class="mt-3 text-gray-600">Commercial &amp; residential building services across the North East &amp; Midlands. 24/7 Reactive Callouts.</p>
+      <div class="mt-3 space-x-2">
+        <span class="chip">NICEIC prepared</span>
+        <span class="chip">SFG20 / RAMS</span>
+        <span class="chip">KPIs &amp; Reporting</span>
+      </div>
+    </div>
+    <div>
+      <div class="font-medium">Services</div>
+      <ul class="mt-2 space-y-1 text-gray-600">
+        <li><a href="services.html#electrical">Electrical</a></li>
+        <li><a href="services.html#mechanical">Mechanical &amp; Plumbing</a></li>
+        <li><a href="services.html#fm">Facilities Maintenance</a></li>
+        <li><a href="services.html#compliance">Compliance &amp; Testing</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-medium">Company</div>
+      <ul class="mt-2 space-y-1 text-gray-600">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-medium">Contact</div>
+      <p class="mt-2 text-gray-600">Email: info@cdrme.co.uk</p>
+      <p class="text-gray-600">Phone: 00000 000000</p>
+      <a href="contact.html" class="inline-flex mt-3 btn-primary">Get a quote</a>
+    </div>
+  </div>
+  <div class="text-center text-xs text-gray-500 py-4 border-t">© 2025 CDR M&amp;E Services Ltd. All rights reserved.</div>
+</footer>
+</body></html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cdrme.co.uk/sitemap.xml
